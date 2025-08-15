@@ -1,0 +1,23 @@
+name: Roblox CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: ok-nick/setup-aftman@v0.3
+        with:
+          version: latest
+
+      - name: Install tools
+        run: |
+          aftman install
+
+      - name: Run tests in Roblox
+        run: |
+          run-in-roblox --place tests/TestPlace.rbxlx --script tests/TestRunner.server.lua

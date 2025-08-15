@@ -17,3 +17,18 @@ Thumbs.db
 
 # Wally packages
 Packages/
+
+# Roblox Studio / Rojo
+*.rbxl
+*.rbxlx
+*.rblx
+*.tmp
+
+# Wally
+Packages/
+wally.lock
+
+# Rokit/Aftman
+.rojo-rokit/
+.aftman/
+

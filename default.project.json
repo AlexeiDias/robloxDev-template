@@ -6,6 +6,9 @@
         "$className": "ReplicatedStorage",
         "Modules": {
           "$path": "src/ReplicatedStorage"
+        },
+        "Packages": {
+          "$path": "Packages"
         }
       },
       "ServerScriptService": {
