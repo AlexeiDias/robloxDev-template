@@ -1,0 +1,19 @@
+# Roblox Studio files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+*.rbxl-bin
+*.rbxm-bin
+
+# Temp & logs
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Wally packages
+Packages/

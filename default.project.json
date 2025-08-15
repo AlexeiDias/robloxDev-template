@@ -1,0 +1,19 @@
+{
+    "name": "robloxDev",
+    "tree": {
+      "$className": "DataModel",
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "Modules": {
+          "$path": "src/ReplicatedStorage"
+        }
+      },
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+        "Scripts": {
+          "$path": "src/ServerScriptService"
+        }
+      }
+    }
+  }
+  
