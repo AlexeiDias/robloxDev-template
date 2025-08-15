@@ -1,4 +1,9 @@
-# robloxDev-template 🧱
+# robloxDev-template
+
+[![Roblox CI](https://github.com/<your-username>/robloxDev-template/actions/workflows/test.yml/badge.svg)](https://github.com/<your-username>/robloxDev-template/actions)
+
+A modern Roblox development template with Rojo, Wally, and automated testing.
+
 
 # 💡 What This Template Does
 This template provides a modern Roblox development workflow, making it easier to:

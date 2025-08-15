@@ -7,16 +7,20 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
 
-      - uses: ok-nick/setup-aftman@v0.3
+      - name: Install Rust (for Cargo)
+        uses: actions-rs/toolchain@v1
         with:
-          version: latest
+          toolchain: stable
+          profile: minimal
+          override: true
 
-      - name: Install tools
+      - name: Install run-in-roblox
         run: |
-          aftman install
+          cargo install run-in-roblox
 
       - name: Run tests in Roblox
         run: |
